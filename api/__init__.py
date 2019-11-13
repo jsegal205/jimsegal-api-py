@@ -20,6 +20,11 @@ def close_connection(exception):
         db.close()
 
 
+@app.route('/health')
+def healthy():
+    return {"message": "success", "data": "healthy"}, 200
+
+
 @app.route("/games")
 def games_index():
     db = get_db()
