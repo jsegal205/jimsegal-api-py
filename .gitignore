@@ -3,3 +3,4 @@ __pycache__/
 
 # skip any env files
 *.env
+.deploy/
