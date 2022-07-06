@@ -1,5 +1,7 @@
 # Jim Segal API
 
+## Archived in favor of https://github.com/jsegal205/jimsegal-admin
+
 Endpoints to get data back for different parts of my site. Also a learning experience for playing with python.
 
 ## Running locally
